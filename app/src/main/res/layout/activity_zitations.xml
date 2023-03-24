@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".PicturesActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/titles"
+            android:text="Цитати"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="1) “Прагніть не до успіху, а до цінностей, які він дає”, – Альберт Айнштайн."
+                style="@style/text"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="2) “Що розум людини може осягнути і в що він може повірити, те він здатний досягти”, – Наполеон Хілл."
+                style="@style/text"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="3) “Неосмислене життя не варте того, щоб його прожити.”, – Сократ."
+                style="@style/text"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonZitationsToBack"
+            style="@style/propertiesForButtons"
+            android:text="До головного меню"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

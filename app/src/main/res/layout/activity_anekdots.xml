@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".PicturesActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/titles"
+            android:text="Анекдоти"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="1) А ви, теж помітили, яка чудова весна цієї зими!"
+                style="@style/text"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="2) В нашій сім’ї зарядкою займаються лише мобільні телефони…"
+                style="@style/text"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="3) Бабуся, нікому не сказавши, що купила слуховий апарат, три рази змінила заповіт."
+                style="@style/text"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAnekdotsToBack"
+            style="@style/propertiesForButtons"
+            android:text="До головного меню"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
