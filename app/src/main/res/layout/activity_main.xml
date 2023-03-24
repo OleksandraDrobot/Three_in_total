@@ -53,7 +53,7 @@
             tools:layout_editor_absoluteY="54dp" />
 
         <Button
-            android:id="@+id/buttonForProfile"
+            android:id="@+id/buttonForAbout"
             style="@style/propertiesForButtons"
             android:text="Про автора"
             tools:layout_editor_absoluteY="54dp" />

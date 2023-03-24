@@ -4,6 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutActivity">
+    android:background="#000000"
+    tools:context=".PicturesActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/titles"
+            android:text="Про автора"
+            android:layout_marginBottom="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                style="@style/photos"
+                app:srcCompat="@mipmap/profile_foreground"
+                tools:srcCompat="@mipmap/profile_foreground" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="Олександра Денисівна Дробот"
+                style="@style/text"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="Група 3-КН-20"
+                style="@style/text"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAboutToBack"
+            style="@style/propertiesForButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="До головного меню"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,21 +28,21 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/imageView7"
                 style="@style/photos"
-                app:srcCompat="@mipmap/photo_young_foreground"
+                app:srcCompat="@mipmap/emo_angry_foreground"
                 tools:srcCompat="@mipmap/emo_angry_foreground" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView8"
                 style="@style/photos"
-                app:srcCompat="@mipmap/photo_adult_foreground"
+                app:srcCompat="@mipmap/emo_kiss_foreground"
                 tools:srcCompat="@mipmap/emo_kiss_foreground" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView9"
                 style="@style/photos"
-                app:srcCompat="@mipmap/photo_old_foreground"
+                app:srcCompat="@mipmap/emo_love_foreground"
                 tools:srcCompat="@mipmap/emo_love_foreground" />
         </LinearLayout>
 
